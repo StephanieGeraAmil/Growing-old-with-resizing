@@ -8,13 +8,12 @@ import { GlobalProvider } from './context/GlobalState';
 function App() {
   return (
     <GlobalProvider>
-
-      <p className="display-linebreak">{`*Resizing your window changes the clothes and accessories of the avatar.
-      *The avatar shown is based on whether your window is big, medium, or small.`}</p>
-      <div className="main">
+      <div className="main">   
           <Avatar/>
           <Message/>
       </div>
+      <p className="display-linebreak">{`*Resizing your window  too see changes the clothes and accessories of the avatar.
+            *The avatar age is based on whether your window is big, medium, or small.`}</p> 
     </GlobalProvider>
   );
 }

@@ -15,7 +15,7 @@ export const Avatar = () => {
     if(width>1000){
         category="l"
     }
-    if(width<700){
+    if(width<300){
         category="s"
     }
     

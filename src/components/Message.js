@@ -15,7 +15,7 @@ export const Message = () => {
     
     
     return (
-        <div>     
+        <div className='message'>     
             <h3>Hi there!!</h3>
             <h1>{msg}</h1>  
             <Dimensions/> 
